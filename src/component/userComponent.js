@@ -1,23 +1,16 @@
 import React, { Component } from "react";
+import { Container } from 'reactstrap';
+import PhotoList from './PhotoList';
 
 export default class userComponent extends Component {
   render() {
-    let arr = [];
     let listUser = this.props.listUser;
-
-    if (listUser) {
-      arr = listUser.map((item, index) => {
-        return (
-          <ul key={index}>
-            <li>{item.name} - {item.address}</li>
-          </ul>
-        );
-      });
-    }
     return (
-      <>
-        <div>{arr}</div>
-      </>
+      <Container className="text-center">
+        <PhotoList
+          photoList={listUser}
+        />
+      </Container>
     );
   }
 }
