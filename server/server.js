@@ -21,10 +21,6 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.get("/", (req, res, next) => {
-  res.send("THIS IS SERVER");
-});
-
 const connect = async () => {
   try {
     await mongoose.connect(process.env.MONGODB_URL, {

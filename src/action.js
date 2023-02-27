@@ -1,4 +1,4 @@
-import * as types from '../src/constant'
+import * as types from '../src/constant';
 
 export const getRequestUser = () => {
     return {

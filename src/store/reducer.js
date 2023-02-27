@@ -1,4 +1,4 @@
-import * as types from '../constant'
+import * as types from '../constant';
 
 const default_state = {
   listUser: [],
@@ -20,6 +20,6 @@ export default (state = default_state, action) => {
       return { ...state, isFetching: true }
 
     default:
-      return state
+      return state;
   }
 }

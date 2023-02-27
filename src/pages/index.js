@@ -1,5 +1,5 @@
-import HomePage from './HomePage'
-import User from './User'
+import HomePage from './HomePage';
+import User from './User';
 
 export {
     HomePage,

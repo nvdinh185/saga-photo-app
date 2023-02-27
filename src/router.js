@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import * as pages from "../src/pages/index"
+import * as pages from "../src/pages/index";
 
 export default function router() {
     return (

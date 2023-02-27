@@ -10,7 +10,7 @@ const userModel = new mongoose.Schema(
     },
   },
   {
-    timestamps: true,
+    timestamps: false,
   }
 );
 

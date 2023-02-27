@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import UserContainer from '../container/userContainer'
+import React, { Component } from 'react';
+import UserContainer from '../container/userContainer';
 export default class
   extends Component {
   render() {
