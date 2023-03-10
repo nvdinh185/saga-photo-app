@@ -2,11 +2,14 @@ import mongoose from "mongoose";
 
 const userModel = new mongoose.Schema(
   {
+    id: {
+      type: Number,
+    },
     name: {
       type: String,
     },
-    age: {
-      type: Number,
+    img: {
+      type: String,
     },
   },
   {
