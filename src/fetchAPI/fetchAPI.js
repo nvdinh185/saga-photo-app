@@ -1,6 +1,6 @@
 function getUser() {
     return new Promise((resolve, reject) => {
-        let url = 'http://localhost:8080/users'
+        let url = 'http://localhost:3000/users'
         let config = { method: "GET" }
         fetch(url, config)
             .then(res => res.json())
